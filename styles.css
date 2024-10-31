@@ -77,3 +77,26 @@ img{
     left: 0;
     height: 9.7rem;
 }
+.flex-container{
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+.card{
+    height: 20rem;
+    width: 15rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+.img{
+    background-image: url(assets/img/proyecto-e1551127430285-800x412.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10rem;
+    width: 20rem;
+}
