@@ -15,10 +15,11 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
@@ -48,9 +49,13 @@ footer {
 a:nth-child(2){
     text-decoration: none;
 }
+div{
+    display: flex;
+}
 section{
     text-align: left;
     color: gray;
+    position: relative;
 }
 h1{
     color: gray;
@@ -65,4 +70,10 @@ h2{
 section ul li{
     color: blue;
     font-family: Dancing Script;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 9.7rem;
 }
