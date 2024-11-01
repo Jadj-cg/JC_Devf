@@ -34,13 +34,13 @@ section {
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: rgb(219, 219, 219);
+    padding: 25px 0;
+    margin-top: 3rem;
 }
 #home{
     text-decoration: none;
@@ -99,4 +99,41 @@ img{
     background-repeat: no-repeat;
     height: 10rem;
     width: 20rem;
+}
+.footer-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section ul {
+    padding: 2;
+    list-style: none;
+}
+
+.icon-social {
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+}
+
+.icon-facebook {
+    background-image: url("https://img.icons8.com/?size=100&id=118467&format=png&color=000000");
+}
+
+.icon-insta {
+    background-image: url("https://img.icons8.com/?size=100&id=32292&format=png&color=ffffff");
+    border-radius: 50%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.copy-right {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 90px;
+    border-top: 1px solid white;
 }
